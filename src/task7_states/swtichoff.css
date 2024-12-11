@@ -1,0 +1,17 @@
+.ON{
+    background-color: green;
+    color: white;
+}
+
+.OFF{
+    background-color: red;
+    color: white;
+}
+.Text{
+    background-color:yellow;
+    color:black
+}
+.UText{
+    background-color: aqua;
+    color: black;
+}

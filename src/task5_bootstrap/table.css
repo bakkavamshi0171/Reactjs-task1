@@ -1,0 +1,9 @@
+h1,td,tr,th{
+    text-align: center;
+}
+td{
+    border: 1.5px solid black;
+}
+td:hover{
+    background-color: rgba(91, 242, 242, 0.992);
+}

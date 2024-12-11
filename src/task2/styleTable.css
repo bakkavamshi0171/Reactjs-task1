@@ -1,0 +1,21 @@
+.tableMain{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.head{
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: aqua;
+    padding: 40px;
+    font-size: larger;
+}
+.rowTable,.id,.title,.description,.price,.image, .rating{
+    border: 2px solid black ;
+    border-collapse: collapse;
+    text-align: center;
+    font-size:medium;
+}
+.dataTable:hover{
+    /* transform: scale(1.1); */
+    background-color: rgb(162, 159, 159);
+}

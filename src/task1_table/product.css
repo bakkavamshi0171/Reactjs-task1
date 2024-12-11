@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+.MainDiv{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:20px;
+    padding: 20px;
+}
+.subMain{
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgb(198, 194, 194);
+}
+.title{
+  color:blueviolet;
+  font-weight: 400;
+  font-size: 1rem;
+}
+img{
+    border-radius: 35px;
+    height:300px;
+    width:100%;
+    object-fit: fill;
+    padding:20px;
+    
+}
+.description{
+    color: black;
+}
+.price{
+    color:darkgreen;
+    font-weight:700;
+    
+}
