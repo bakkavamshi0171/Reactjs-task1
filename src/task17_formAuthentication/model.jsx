@@ -15,7 +15,7 @@ function ModelComp(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <p>welcome {prop}</p>
+        <p>welcome {props}</p>
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={props.onHide}>Close</Button>

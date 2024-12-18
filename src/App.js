@@ -16,10 +16,11 @@ import CounterUsingHooks from './task13_HooksCount/counter';
 import Todolist from './task10_todo/todolist';
 import LifeCycle from './task11_lifeccylemtds/lifecycle';
 import UpdateLifycycle from './task12_updating/updating';
-// import KandanBoard from './kanban_board/display';
 import FormComp from './task14_form/form';
-import DisplayComp from './task16_calculator/display';
-import FormAuthen from './practice/formauthen';
+import DisplayComp from './task16_stateLifting/display';
+import FormAuthen from './task17_formAuthentication/formauthen';
+import ParentFunctioncomp from './task18_useContext/parentComp';
+
 
 const products = [
   {
@@ -379,6 +380,11 @@ function App() {
 
       <div style={{textAlign:"center", border:"2px ridge black", padding:"25px", margin:"20px",backgroundColor:"lightpink"}} >
         <FormAuthen/>
+      </div>
+
+      <div style={{textAlign:"center", border:"2px ridge black", padding:"25px", margin:"20px", backgroundColor:"lightsalmon"}}>
+        <h1 style={{ textAlign: "center", margin: "50px" }}>class Practice 18/12/2024</h1>
+        <ParentFunctioncomp/>
       </div>
   </div>
   );
