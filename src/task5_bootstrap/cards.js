@@ -3,8 +3,8 @@ import React from "react";
 
 function CardsCom(props) {
   return (
-    <div>
-      <Card style={{height:"100%"}} key={props.key}>
+    <div key={props.key}>
+      <Card style={{height:"100%"}} >
         <Card.Img variant="top" src={props.image} />
         <Card.Body>
           <Card.Title>{props.title}</Card.Title>

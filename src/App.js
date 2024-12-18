@@ -17,6 +17,9 @@ import Todolist from './task10_todo/todolist';
 import LifeCycle from './task11_lifeccylemtds/lifecycle';
 import UpdateLifycycle from './task12_updating/updating';
 // import KandanBoard from './kanban_board/display';
+import FormComp from './task14_form/form';
+import DisplayComp from './task16_calculator/display';
+import FormAuthen from './practice/formauthen';
 
 const products = [
   {
@@ -362,13 +365,21 @@ function App() {
           <CounterUsingHooks/>
       </div>
 
-{/*   
-        <div>
-        <KandanBoard/>
-        </div>  */}
+      <div style={{ border:"2px ridge black", padding:"25px", margin:"20px", backgroundColor:"lightsalmon"}}>
+        <h1 style={{ textAlign: "center", margin: "50px" }}>Task13 Form submission</h1>
+        <FormComp/>
+      </div>
 
+      <div style={{textAlign:"center", border:"2px ridge black", padding:"25px", margin:"20px", backgroundColor:"lightcyan"}}>
+        <h1 style={{ textAlign: "center", margin: "50px" }}>
+          Practice State Lifting
+        </h1>
+        <DisplayComp/>
+      </div>
 
-      
+      <div style={{textAlign:"center", border:"2px ridge black", padding:"25px", margin:"20px",backgroundColor:"lightpink"}} >
+        <FormAuthen/>
+      </div>
   </div>
   );
 }

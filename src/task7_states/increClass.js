@@ -2,8 +2,8 @@ import React,{Component} from "react";
 import "./swtichoff.css"
 
 class IncrementCom extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = { isON: true };
   }
   handler = () => {
@@ -15,9 +15,8 @@ class IncrementCom extends Component {
       <button onClick={this.handler} className={this.state.isON ? "ON" : "OFF"}>
         {this.state.isON ? <h1>Switched ON</h1> : <h1>Switched OFF</h1>}
       </button>
-      <h1 className={this.state.isON ? "Text" : "UText"}>
-        {this.state.isON ? <h1>BULB IS ON</h1> : <h1>BULB IS OFF</h1>}
-      </h1>
+        {this.state.isON ? <h1 className={this.state.isON ? "Text" : "UText"}>BULB IS ON</h1> : <h1 className={this.state.isON ? "Text" : "UText"}>BULB IS OFF</h1>}
+      
     </>)
   }
 }

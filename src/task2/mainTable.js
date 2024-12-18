@@ -224,9 +224,9 @@ function TableDisplay() {
                 <th className="head">Image</th>
                 <th className="head">Ratings</th>
             </tr>
-            {product.map((element) => {
+            {product.map((element, b) => {
                 return (
-                    <tr className="dataTable" >
+                    <tr className="dataTable" key={b}>
                         <td className="id" >{element.id}</td>
                         <td className="title">{element.title}</td>
                         <td className="description">{element.description}</td>

@@ -1,0 +1,37 @@
+.form{
+    width:400px;
+    border: 2px solid white;
+    padding: 20px;
+    color: white;
+}
+.formDiv{
+    padding:20px;
+    background-color:cornflowerblue;
+    display: flex;
+    justify-content: center;
+
+    
+}
+.formDiv .inputLabel{
+    text-align: right;
+    padding: 10px;
+    font-size: larger;
+    margin-left: 20px;
+}
+ .formDiv input{
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+ }
+::placeholder{
+    color:brown;
+}
+.submitButton{
+    text-align: center;
+    margin:15px
+}
+.submitButton input[type="submit"]{
+    background-color: blue;
+    color: white;
+    font-size: large;
+}

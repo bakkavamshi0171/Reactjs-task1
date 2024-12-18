@@ -214,9 +214,9 @@ function Main() {
     <div>
     <h1 style={{textAlign:"center"}}>ClassRoom Pratice</h1>
     <div className="MainDiv">
-      {product.map((element) => {
+      {product.map((element, b) => {
         return (
-          <div className="subMain">
+          <div className="subMain" key={b}>
             <img src={element.image} alt={element.title}></img>
             <p className="title">{element.title}</p>
             <h3 className="description">{element.category}</h3>
